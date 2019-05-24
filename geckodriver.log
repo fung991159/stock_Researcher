@@ -1,0 +1,296 @@
+1558531567554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.l1r7Lc9e3OEG"
+1558531569817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558531569818	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558531569818	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558531575383	Marionette	INFO	Listening on port 60579
+[Child 14604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14604, Chrome_ChildThread] WARNING:[Child 14352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1558531590694	Marionette	INFO	Stopped listening on port 60579
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15520[Parent 14536, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558531587536	Marionette	INFO	Listening on port 60630
+1558531588027	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12740, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+1558531589879	Marionette	INFO	Stopped listening on port 60630
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12740, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558531605014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.ZAbip0NjLTFY"
+1558531606242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558531606243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558531606243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558531609583	Marionette	INFO	Listening on port 60703
+1558531610021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+1558531687417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.uT1raZxXpa8k"
+1558531688732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558531688733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558531688733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558531691568	Marionette	INFO	Listening on port 60870
+1558531691786	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+JavaScript warning: http://www3.hkexnews.hk/ncms/script/main.js, line 622: unreachable code after return statement
+JavaScript warning: http://www3.hkexnews.hk/ncms/script/main.js, line 1982: unreachable code after return statement
+[Parent 14508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15860, Chrome_ChildThread] WARNING: pipe erro[Child 16188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558531849505	Marionette	INFO	Stopped listening on port 60870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15936, Chr[Parent 14508, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+1558531868757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.ZxOHdi5XIS0K"
+1558531869570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558531869570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558531869571	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558531872489	Marionette	INFO	Listening on port 61197
+1558531872611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+1558531899168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote"[Parent 14736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558531903383	Marionette	INFO	Stopped listening on port 61197
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+shots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558531900020	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558531903766	Marionette	INFO	Listening on port 61287
+1558531904225	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 10316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome[Parent 4928, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558532056403	Marionette	INFO	Stopped listening on port 61287
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ine 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Parent 13508, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1558532054042	Marionette	INFO	Stopped listening on port 61487
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532051603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532051611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 17368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558532059712	Marionette	INFO	Listening on port 61591
+1558532060038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558532060584	Marionette	ERROR	[6442450945] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 459: TypeError: reply[0] is undefined
+1558532061097	Marionette	INFO	Stopped listening on port 61591
+[GPU 172
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+16, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558532066679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.b37PHSXvSiTj"
+1558532067480	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532067480	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532067480	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532070654	Marionette	INFO	Listening on port 61651
+1558532071051	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Child 15352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel[Child 104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bui[Parent 15976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558532128109	Marionette	INFO	Stopped listening on port 61651
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+1558532129195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.iuvE9SeOf6Wv"
+1558532130646	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532130647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532130647	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532133749	Marionette	INFO	Listening on port 61831
+1558532133796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+1558532184975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.2z6lCIwtMI7M"
+1558532186539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532186548	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532186550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532193938	Marionette	INFO	Listening on port 61953
+1558532194116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Child 11064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1558532212863	Marionette	INFO	Stopped listening on port 61953
+[GPU 6132, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558532218189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.So94j4aevVXE"
+1558532219524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532219524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532219524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532222718	Marionette	INFO	Listening on port 62063
+1558532223148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Parent 17084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558532453039	Marionette	INFO	Stopped listening on port 62063
+[GPU 16rg': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532451672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532455684	Marionette	INFO	Listening on port 62445
+1558532455884	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Parent 4872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ip1558532490465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532490465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532490466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532493994	Marionette	INFO	Listening on port 62546
+1558532494089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Child 15912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 8896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/i1558532721142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532721143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532721143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532724168	Marionette	INFO	Listening on port 62967
+1558532724341	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+1558532833908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.eDLi48cOwbLy"
+1558532835746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532835746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532835746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532839298	Marionette	INFO	Listening on port 63199
+1558532839428	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+1558532850076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fung\\AppData\\Local\\Temp\\rust_mozprofile.BqNSPqZO7aJv"
+1558532850818	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558532850819	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558532850819	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558532853693	Marionette	INFO	Listening on port 63264
+1558532853974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 25: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 19: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 36: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 622: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/ncms/script/main_index.js, line 1982: unreachable code after return statement
+JavaScript warning: http://www.hkexnews.hk/index_c.htm line 2 > scriptElement, line 25: unreachable code after return statement
+[Parent 16812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7192, Chr1558533090361	Marionette	INFO	Stopped listening on port 63264
+[GPU 8552, Chrome_
