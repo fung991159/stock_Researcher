@@ -1,0 +1,9 @@
+# stock_Researcher
+Personal project
+"""
+    This program should help my stock research by automatically getting:
+    1. last 5 years annual reports + interim reports from HKEX
+    2. Historical annual stock price fluctuation
+    3. In Browser open stock researching websites that I freuqently visit
+    4. use my excel template and fill in info appropriately
+    """
