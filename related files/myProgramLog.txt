@@ -1,2 +1,0 @@
- 2019-04-28 20:34:22,055 - DEBUG- Some debugging details.
- 2019-04-28 20:34:22,056 - CRITICAL- OMG!
