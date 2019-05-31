@@ -1,4 +1,4 @@
-import datetime
+import datetime, os
 
 import pandas as pd
 from pandas import ExcelWriter
@@ -7,7 +7,8 @@ from yahoo_historical import Fetcher
 
 def getHistory(stockCode):
         stockCode = str(stockCode).zfill(4)
-        dst = f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}\\historical price {stockCode}.xlsx'
+        os.makedirs(f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}', exist_ok=True)
+        dst = f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}\\historical price {stockCode}.xlsx' #result destination
         
         now = datetime.datetime.now()
         year= int(now.year)
@@ -18,7 +19,7 @@ def getHistory(stockCode):
         df = stockData.getHistorical()
         df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d') #change date column from string to date
         df.Date=df.Date.dt.strftime('%Y') #change date format to Year for pivot table
-        pt= pd.pivot_table(df, values='Close', index=['Date'], 
+        pt= pd.pivot_table(df, values='Close', index=['Date'],    #Get Max and low stock price group by each year
                         aggfunc={'Close':[min, max]})
         sortedPT = pt.sort_values('Date',axis=0,ascending=False)
         writer = ExcelWriter(dst)
