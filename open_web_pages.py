@@ -1,5 +1,3 @@
-import webbrowser, time
-
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions, Chrome
 from selenium.webdriver.common.keys import Keys
@@ -8,8 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-
-def openWebPages(stockCode):
+def open_Webpages(stockCode):
     #grab input stockCode and use browser to search stock information on different sites
     stockCode = str(stockCode)
     links = [
@@ -46,11 +43,10 @@ def openWebPages(stockCode):
             driver.execute_script("window.open();")
             driver.switch_to.window(driver.window_handles[i+1])
         elif i == 3:   #HKEX is always at end  
-            #HKEX advance stock search
             driver.get(links[i])
             driver.find_element_by_id('ctl00_txt_stock_code').send_keys(stockCode)
             driver.find_element_by_xpath('//*[@id="aspnetForm"]/table/tbody/tr[7]/td[3]/label/a[1]').click()    
           
 if __name__ == "__main__":
-    openWebPages(5)
+    open_Webpages(5)
     print('All pages loaded!')

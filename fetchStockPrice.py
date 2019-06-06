@@ -33,6 +33,6 @@ def getHistory(stockCode):
         for i in range(lastCol,2,-1):      
                 ws.insert_cols(i,2)
         wb.save(dst)
-        
+        os.startfile(f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}') #open report folder
 if __name__ == "__main__":
     getHistory(87)

@@ -1,0 +1,1 @@
+python "C:\xampp\htdocs\Python\stock_Researcher\main.py" %1
