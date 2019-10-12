@@ -5,10 +5,11 @@ from pandas import ExcelWriter
 import openpyxl
 from yahoo_historical import Fetcher
 
+from compNameDict import compNameDict
 def getHistory(stockCode):
         stockCode = str(stockCode).zfill(4)
-        os.makedirs(f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}', exist_ok=True)
-        dst = f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}\\historical price {stockCode}.xlsx' #result destination
+        os.makedirs(f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode} {compNameDict[stockCode]}', exist_ok=True)
+        dst = f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode} {compNameDict[stockCode]}\\historical price {stockCode}.xlsx' #result destination
         
         now = datetime.datetime.now()
         year= int(now.year)
@@ -33,6 +34,6 @@ def getHistory(stockCode):
         for i in range(lastCol,2,-1):      
                 ws.insert_cols(i,2)
         wb.save(dst)
-        os.startfile(f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode}') #open report folder
+        os.startfile(f'C:\\Users\\Fung\\Downloads\\Financial Reports {stockCode} {compNameDict[stockCode]}') #open report folder
 if __name__ == "__main__":
     getHistory(87)

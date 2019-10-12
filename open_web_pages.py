@@ -13,7 +13,7 @@ def open_Webpages(stockCode):
         f'https://webb-site.com/dbpub/orgdata.asp?code={stockCode}&Submit=current', #webbsite
         f'http://www.aastocks.com/tc/', #aastock
         f'https://xueqiu.com/', #xueqiu
-        'http://www3.hkexnews.hk/listedco/listconews/advancedsearch/search_active_main_c.aspx'
+        'https://www.hkexnews.hk/index_c.htm'
     ]
     opts = ChromeOptions() #make chrome stay open after test
     opts.add_experimental_option("detach", True) #browser stay open
@@ -44,8 +44,12 @@ def open_Webpages(stockCode):
             driver.switch_to.window(driver.window_handles[i+1])
         elif i == 3:   #HKEX is always at end  
             driver.get(links[i])
-            driver.find_element_by_id('ctl00_txt_stock_code').send_keys(stockCode)
-            driver.find_element_by_xpath('//*[@id="aspnetForm"]/table/tbody/tr[7]/td[3]/label/a[1]').click()    
+            driver.find_element_by_id('searchStockCode').send_keys(stockCode)
+            element = WebDriverWait(driver, 20).until(
+                EC.element_to_be_clickable((By.XPATH, "//*[@class='autocomplete-suggestion narrow']")))
+            element.click()
+            driver.find_element_by_xpath("//*[@class='filter__buttonGroup']//*[text()='搜尋']").click()
+            # driver.find_element_by_xpath('//*[@id="aspnetForm"]/table/tbody/tr[7]/td[3]/label/a[1]').click()    
           
 if __name__ == "__main__":
     open_Webpages(5)
