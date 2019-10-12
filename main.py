@@ -29,3 +29,7 @@ if __name__ == "__main__":
         elif sys.argv[2] == 'rp':
             print('ONLY download HKEX reports')
             get_HKEX_Reports(stockCode)
+        print('missing arguments')
+        input()
+
+
